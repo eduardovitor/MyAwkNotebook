@@ -1,0 +1,4 @@
+Alteration
+A vertical bar allows regular expressions to be logically ORed. For instance, the following example prints Ball and Call.
+
+echo -e "Call\nTall\nBall\nSmall\nShall" | awk '/Call|Ball/'

@@ -1,0 +1,4 @@
+BEGIN é um bloco de código que será executado apenas uma vez antes da execução do fluxo do Awk. Ele pode ser utilizado para inicializar variáveis, entre outras coisas. É opcional colocá-lo.
+
+END é um bloco de código que será executado ao final do fluxo do Awk. Também é um bloco opcional.
+

@@ -1,0 +1,12 @@
+awk -v name=Jerry 'BEGIN{printf "Name = %s\n", name}'
+Cria uma nova variável e coloca ela pra executar em um bloco begin.
+
+awk --dump-variables ''
+Printa as variáveis globais do awk em um arquivo chamado de awkvars.out
+
+awk --lint '' /bin/ls
+A opção lint habilita mensagens de erro do awk
+
+awk --profile 'BEGIN{printf"---|Header|--\n"} {print} 
+END{printf"---|Footer|---\n"}' marks.txt
+Transforma o script awk passado em um arquivo awk bonito e organizado.

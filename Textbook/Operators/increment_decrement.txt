@@ -1,0 +1,26 @@
+
+Increment and Decrement Operators
+
+Pre-Increment
+It is represented by ++. It increments the value of an operand by 1. This operator first increments the value of the operand, then returns the incremented value. For instance, in the following example, this operator sets the value of both the operands, a and b, to 11.
+
+Example
+awk 'BEGIN { a = 10; b = ++a; printf "a = %d, b = %d\n", a, b }'
+
+Pre-Decrement
+It is represented by --. It decrements the value of an operand by 1. This operator first decrements the value of the operand, then returns the decremented value. For instance, in the following example, this operator sets the value of both the operands, a and b, to 9.
+
+Example
+awk 'BEGIN { a = 10; b = --a; printf "a = %d, b = %d\n", a, b }'
+
+Post-Increment
+It is represented by ++. It increments the value of an operand by 1. This operator first returns the value of the operand, then it increments its value. For instance, the following code sets the value of operand a to 11 and b to 10.
+
+Example
+awk 'BEGIN { a = 10; b = a++; printf "a = %d, b = %d\n", a, b }'
+
+Post-Decrement
+It is represented by --. It decrements the value of an operand by 1. This operator first returns the value of the operand, then it decrements its value. For instance, the following code sets the value of the operand a to 9 and b to 10.
+
+Example
+awk 'BEGIN { a = 10; b = a--; printf "a = %d, b = %d\n", a, b }'

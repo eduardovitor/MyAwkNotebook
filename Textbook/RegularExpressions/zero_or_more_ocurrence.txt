@@ -1,0 +1,4 @@
+Zero or More Occurrence
+It matches zero or more occurrences of the preceding character. For instance, the following example matches ca, cat, catt, and so on.
+
+echo -e "ca\ncat\ncatt" | awk '/cat*/'

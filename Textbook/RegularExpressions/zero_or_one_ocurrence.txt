@@ -1,0 +1,4 @@
+Zero or One Occurrence
+It matches zero or one occurrence of the preceding character. For instance, the following example matches Colour as well as Color. We have made u as an optional character by using ?.
+
+echo -e "Colour\nColor" | awk '/Colou?r/'

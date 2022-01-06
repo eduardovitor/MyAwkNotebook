@@ -1,0 +1,4 @@
+Exclusive set
+In exclusive set, the carat negates the set of characters in the square brackets. For instance, the following example prints only Ball.
+
+echo -e "Call\nTall\nBall" | awk '/[^CT]all/'

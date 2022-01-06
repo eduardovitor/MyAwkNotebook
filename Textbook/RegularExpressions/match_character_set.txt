@@ -1,0 +1,4 @@
+Match character set
+It is used to match only one out of several characters. For instance, the following example matches pattern Call and Tall but not Ball.
+
+echo -e "Call\nTall\nBall" | awk '/[CT]all/'

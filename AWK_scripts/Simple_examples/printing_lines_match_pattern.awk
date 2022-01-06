@@ -1,0 +1,4 @@
+
+/Maths/ {
+ print $0
+}

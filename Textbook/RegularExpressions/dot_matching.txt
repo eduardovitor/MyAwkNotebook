@@ -1,0 +1,4 @@
+It matches any single character except the end of line character. For instance, the following example matches fin, fun, fan etc.
+
+Example
+echo -e "cat\nbat\nfun\nfin\nfan" | awk '/f.n/'

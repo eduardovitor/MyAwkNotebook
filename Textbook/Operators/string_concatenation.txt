@@ -1,0 +1,4 @@
+Space is a string concatenation operator that merges two strings. The following example demonstrates this −
+
+Example
+awk 'BEGIN { str1 = "Hello, "; str2 = "World"; str3 = str1 str2; print str3 }'

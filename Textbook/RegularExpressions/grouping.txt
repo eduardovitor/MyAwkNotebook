@@ -1,0 +1,5 @@
+Grouping
+Parentheses () are used for grouping and the character | is used for alternatives. For instance, the following regular expression matches the lines containing either Apple Juice or Apple Cake.
+
+echo -e "Apple Juice\nApple Pie\nApple Tart\nApple Cake" | awk 
+   '/Apple (Juice|Cake)/'

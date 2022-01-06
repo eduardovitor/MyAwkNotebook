@@ -1,0 +1,4 @@
+Start of line
+It matches the start of line. For instance, the following example prints all the lines that start with pattern The.
+
+echo -e "This\nThat\nThere\nTheir\nthese" | awk '/^The/'

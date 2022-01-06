@@ -1,0 +1,13 @@
+There are two formats of exponential operators −
+
+Exponential Format 1
+It is an exponential operator that raises the value of an operand. For instance, the following example raises the value of 10 by 2.
+
+Example
+awk 'BEGIN { a = 10; a = a ^ 2; print "a =", a }'
+
+Exponential Format 2
+It is an exponential operator that raises the value of an operand. For instance, the following example raises the value of 10 by 2.
+
+Example
+awk 'BEGIN { a = 10; a = a**2; print "a =", a }'

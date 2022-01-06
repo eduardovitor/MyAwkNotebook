@@ -1,0 +1,8 @@
+We can easily implement a condition expression using ternary operator. The following example demonstrates this −
+
+Example
+condition expression ? statement1 : statement2
+When the condition expression returns true, statement1 gets executed; otherwise statement2 is executed. For instance, the following example finds the largest number from two given numbers.
+
+Example
+awk 'BEGIN { a = 10; b = 20; (a > b) ? max = a : max = b; print "Max =", max}'

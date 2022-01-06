@@ -1,0 +1,4 @@
+One or More Occurrence
+It matches one or more occurrence of the preceding character. For instance below example matches one or more occurrences of the 2.
+
+echo -e "111\n22\n123\n234\n456\n222"  | awk '/2+/'
